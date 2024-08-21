@@ -1,22 +1,31 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  font-family: "Fira Code", monospace;
+  font-style: normal;
   font-synthesis: none;
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-optical-sizing: auto;
+
+  background-color: rgb(35, 35, 35);
+  color: rgba(255, 255, 255, 0.85);
+
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 a {
-  text-decoration: none;
+  color: rgb(5, 125, 200);
+  text-decoration: underline;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  margin: 15px;
+  padding: 5px;
+  min-height: 95vh;
+  border: 1px solid rgb(230, 220, 130);
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }

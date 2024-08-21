@@ -1,10 +1,19 @@
+import decor from "./lib/consoleDecor";
+import WelcomeMsg from "./components/WelcomeMsg";
+import Terminal from "./components/Terminal";
+
 import "./App.css";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    decor();
+  }, []);
+
   return (
     <>
-      <h1>My Web Term (Terminal)</h1>
-      <h2>Coming Soon...</h2>
+      <WelcomeMsg />
+      <Terminal />
     </>
   );
 }

@@ -1,6 +1,15 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+:root {
+  --side-gap: 0.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.command {
+  --glow-color: rgb(10, 215, 145);
+  font-weight: bolder;
+  color: var(--glow-color);
+  text-shadow: 0 0 5px var(--glow-color);
 }
