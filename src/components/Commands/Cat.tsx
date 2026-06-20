@@ -11,40 +11,42 @@ const Cat: FC<IProps> = (props) => {
 
   switch (fileName) {
     case "bio":
-      return (
-        <div>
-          Full-Stack Web Developer && 2nd Year B.Tech CSE Student at Sister
-          Nivedita University
-        </div>
-      );
+      return <div>Developer etc.</div>;
     case "about":
       return (
         <div>
-          I'm Krishnendu Das, currently in my 2nd year, pursuing Bachelor of
-          Technology in Computer Science & Engineering from Sister Nivedita
-          University, Kolkata. I'm passionate about Full-Stack Web Development,
-          Web Security, Containerization, Linux, Self-Hosting. I mostly work
-          with TypeScript, JavaScript, Node.js, Express.js, React.js,
-          Discord.js, Docker, Firebase, MySQL, MongoDB, Redis. In my free time,
-          I make Open-Source Web Apps & Discord Bots, which anyone can self-host
-          or use the hosted version. I also contribute to Open Source.
+          A Full-Stack Developer with a strong focus on DevOps, Web Security,
+          and Self-Hosting. Dedicated to building Open-Source CLI Tools & Web
+          Apps designed for self-hosted and hosted environments, with occasional
+          contributions to other projects. Leads technical initiatives within
+          the student developer community.
         </div>
       );
     case "skills":
       return (
         <ul>
-          <li>Languages: C, C++, JavaScript, TypeScript</li>
-          <li>Frontend: React.js, HTML, CSS, SASS</li>
-          <li>API: REST, WebSocket, socket.io, WebRTC</li>
-          <li>Backend: Node.js, Express.js, NGINX</li>
-          <li>Databases: FireStore, MongoDB, Redis, MySQL</li>
-          <li>Other Frameworks: Discord.js, Arduino, Qt</li>
-          <li>Version Control: Git, GitHub</li>
-          <li>BasS: FireBase, SupaBase, AppWrite</li>
-          <li>PaaS: Cloudflare, Vercel, Netlify</li>
-          <li>IaaS: Azure, Google Cloud Platform</li>
-          <li>OS: Windows, Linux (Ubuntu, Debian, Alpine)</li>
-          <li>Tools: Docker, Postman, VS Code, TailScale</li>
+          <li>Languages: C, C++, TypeScript, JavaScript, SQL, Bash</li>
+          <li>
+            Frontend: Next.js, React.js, Vite, HTMX, HTML5, CSS3, Tailwind CSS,
+            SASS, shadcn/ui, Motion
+          </li>
+          <li>
+            Backend: Node.js, Express.js, Passport.js, JWT, Better Auth, Prisma,
+            Mongoose, GraphQL, WebSocket
+          </li>
+          <li>Database: PostgreSQL, MySQL, Firestore, MongoDB, Redis</li>
+          <li>
+            DevOps: Docker, Docker Swarm, Terraform, GitHub Actions, Portainer,
+            Nginx, Traefik, Tailscale, Netdata, Beszel
+          </li>
+          <li>Cloud: Google Cloud, Firebase, Cloudflare, Vercel</li>
+          <li>
+            IoT: Arduino, ATMega328p, ESP32, ESP8266, Raspberry Pi, Blynk, MQTT
+          </li>
+          <li>
+            Tools: Turborepo, Git, GitHub, VS Code Extension API, Postman,
+            Linux, VMware Workstation
+          </li>
         </ul>
       );
     case "projects":
@@ -69,11 +71,11 @@ const Cat: FC<IProps> = (props) => {
             <span>Website: </span>
             <span>
               <a
-                href="https://itskdhere.eu.org"
+                href="https://itskdhere.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                itskdhere.eu.org
+                itskdhere.com
               </a>
             </span>
           </li>
@@ -81,11 +83,11 @@ const Cat: FC<IProps> = (props) => {
             <span>Email: </span>
             <span>
               <a
-                href="mailto:kd@itskdhere.eu.org"
+                href="mailto:hi@itskdhere.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                kd@itskdhere.eu.org
+                hi@itskdhere.com
               </a>
             </span>
           </li>
